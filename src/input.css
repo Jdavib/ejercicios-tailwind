@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../src/3-card-perfil/fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf") format("woff2");
+}
+@font-face {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../src/4-responsive-card/fonts/Karla/Karla-VariableFont_wght.ttf") format("woff2");
+}
+@font-face {
+  font-family: HankenGrotesk;
+  font-style: normal;
+  font-weight: 500 700 800;
+  font-display: swap;
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("woff2");
+}
+@font-face {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500 600;
+  font-display: swap;
+  src: url("/src/6-testimonio-grid/Barlow_Semi_Condensed/BarlowSemiCondensed-SemiBold.ttf") format("woff2");
+}
+@theme {
+  --color-Dark-cyan: hsl(185, 75%, 39%);
+  --color-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-Dark-grayish-blue: hsl(227, 10%, 46%);
+  --color-Dark-gray: hsl(0, 0%, 59%);
+  
+  --color-Cyan: hsl(179, 62%, 43%);
+  --color-Broght-Yellow: hsl(71, 73%, 54%);
+  --color-Light-Gray: hsl(204, 43%, 93%);
+  --color-Grayish-Blue: hsl(218, 22%, 67%);
+
+  --color-Light-red: hsl(0, 100%, 67%);
+  --color-Orangey-yellow: hsl(39, 100%, 56%);
+  --color-Green-teal: hsl(166, 100%, 37%);
+  --color-Cobalt-blue: hsl(234, 85%, 45%);
+  --color-Light-slate-blue-background: hsl(252, 100%, 67%);
+  --color-Light-royal-blue-background: hsl(241, 81%, 54%);
+  --color-Violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --color-Persian-blue-circle: hsla(241, 72%, 46%, 0);
+  --color-White: hsl(0, 0%, 100%);
+  --color-Pale-blue: hsl(221, 100%, 96%);
+  --color-Light-lavender: hsl(241, 100%, 89%);
+  --color-Dark-gray-blue: hsl(224, 30%, 27%);
+
+  --font-Barlow: Barlow;
+  --font-HankenGrotesk: HankenGrotesk; 
+  --font-Karla: Karla;
+  --font-Kumbh-Sans: "Kumbh Sans"; 
+}
+
